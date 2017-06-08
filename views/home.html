@@ -1,0 +1,24 @@
+<div class="panel panel-primary">
+  <h1 class="panel-heading">
+    Employee Details
+  </h1>
+  <div class="panel-body">
+    <form role="form">
+      <label for="search.name">Search for name</label>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search here..." ng-model="search.name">
+      </div>
+      <label for="search.designation">Search for designation</label>
+      <select class="form-control" ng-model="search.designation">
+        <option value="">All</option>
+        <option value="{{employee.designation}}" ng-repeat="employee in employees| unique: 'designation' ">{{employee.designation}}</option>
+      </select>
+    </form>
+    <br /><br />
+    <display-employees></display-employees>
+  </div>
+  <a href="#!add" class="btn btn-success btn-md btn-block">
+    <span class="glyphicon glyphicon-plus"></span> Add employees
+  </a>
+
+</div>

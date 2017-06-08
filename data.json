@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Sai",
+    "designation": "Intern",
+    "salary": 5000,
+    "department": "Frontend",
+    "no": 1
+  },
+  {
+    "name": "abc",
+    "designation": "B",
+    "salary": 7000,
+    "department": "Q",
+    "no": 2
+  },
+  {
+    "name": "def",
+    "designation": "C",
+    "salary": 100000,
+    "department": "R",
+    "no": 3
+  },{
+    "name": "pqr",
+    "designation": "C",
+    "salary": 600,
+    "department": "U",
+    "no": 4
+  },
+  {
+    "name": "xaa",
+    "designation": "D",
+    "salary": 500,
+    "department": "S",
+    "no": 5
+  },
+  {
+    "name": "fgh",
+    "designation": "E",
+    "salary": 15000,
+    "department": "T",
+    "no": 6
+  }
+]

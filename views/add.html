@@ -1,0 +1,15 @@
+<div class="panel panel-primary">
+  <h1 class="panel-heading">
+    Add employee
+  </h1>
+  <div class="panel-body">
+    <form ng-submit="save()">
+      <div class="form-group">
+        <add-employees></add-employees>
+      </div>
+      <button type="submit" class="btn btn-success">Save</button>
+      <a href="#!home" role="button" type="danger" class="btn btn-danger">Cancel</a>
+    </form>
+    <span ng-show="matched">Employee with number {{employee.no}} is already present</span>
+  </div>
+</div>
